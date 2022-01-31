@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3B7FAD27A7E5CD0043D8A9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B7FAC27A7E5CD0043D8A9 /* Coordinator.swift */; };
 		0AA1CD4A27A7BE9D002F98D7 /* CameraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1CD4927A7BE9D002F98D7 /* CameraAppApp.swift */; };
 		0AA1CD4C27A7BE9D002F98D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1CD4B27A7BE9D002F98D7 /* ContentView.swift */; };
 		0AA1CD4E27A7BEA2002F98D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1CD4D27A7BEA2002F98D7 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3B7FAC27A7E5CD0043D8A9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		0A3B7FAE27A7E7ED0043D8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0AA1CD4627A7BE9D002F98D7 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA1CD4927A7BE9D002F98D7 /* CameraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppApp.swift; sourceTree = "<group>"; };
 		0AA1CD4B27A7BE9D002F98D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +56,10 @@
 		0AA1CD4827A7BE9D002F98D7 /* CameraApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A3B7FAE27A7E7ED0043D8A9 /* Info.plist */,
 				0AA1CD4927A7BE9D002F98D7 /* CameraAppApp.swift */,
 				0AA1CD4B27A7BE9D002F98D7 /* ContentView.swift */,
+				0A3B7FAC27A7E5CD0043D8A9 /* Coordinator.swift */,
 				0AA1CD5727A7DF18002F98D7 /* ImagePicker.swift */,
 				0AA1CD4D27A7BEA2002F98D7 /* Assets.xcassets */,
 				0AA1CD4F27A7BEA2002F98D7 /* Preview Content */,
@@ -140,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3B7FAD27A7E5CD0043D8A9 /* Coordinator.swift in Sources */,
 				0AA1CD5827A7DF19002F98D7 /* ImagePicker.swift in Sources */,
 				0AA1CD4C27A7BE9D002F98D7 /* ContentView.swift in Sources */,
 				0AA1CD4A27A7BE9D002F98D7 /* CameraAppApp.swift in Sources */,
@@ -276,6 +282,10 @@
 				DEVELOPMENT_TEAM = NWA59U3B63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを使用します";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "撮影した写真を保存するために写真ライブラリを使用します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +315,10 @@
 				DEVELOPMENT_TEAM = NWA59U3B63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを使用します";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "撮影した写真を保存するために写真ライブラリを使用します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
