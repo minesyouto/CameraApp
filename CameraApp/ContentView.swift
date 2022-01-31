@@ -39,9 +39,7 @@ struct ContentView: View {
             }
             if isPicking {
                 //カメラ画面を表示するコード
-                Rectangle()
-                //Rectangle => 四角形のUI部品
-                //これはカメラ画面と入れ替えるために配置している一時的なUI部品
+                ImagePicker()
                     .edgesIgnoringSafeArea(.all)
                 //時計などの範囲に干渉できるようにするためのUI部品
                     .transition(.move(edge: .bottom))
